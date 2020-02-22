@@ -46,7 +46,7 @@ public class EnemybulletModule : MonoBehaviour
     }
 
     private float delayTime = 0;
-    private float waitTime = .5f;
+    private float waitTime = .5f;   
     private void GuidMissle()
     {
         if (delayTime >= waitTime)
